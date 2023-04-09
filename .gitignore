@@ -1,0 +1,47 @@
+# Arquivos de configuração
+/app/config/*.yml
+/app/config/*.xml
+/app/config/*.ini
+/app/config/*.conf
+/Db/database.ini
+# Diretórios de cache
+/var/cache/*
+/var/log/*
+
+# Dependências geradas pelo Composer
+/vendor/
+
+# Arquivos de compilação e arquivos gerados
+/var/*
+!.gitkeep
+*.swp
+*.log
+*.pid
+*.out
+*.zip
+*.tgz
+*.gz
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.exe
+*.sql
+*.sqlite
+*.sqlite3
+*.env
+*.env.local
+*.env.*.php
+
+# Arquivos de IDE e de depuração
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.tmproject
+*.dump
+*.phpunit.result.cache
+*.phpintel
