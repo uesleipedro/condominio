@@ -23,9 +23,9 @@ class UserController
       $response->getBody()->write(json_encode($tableList));
     
       return $response->withHeader('Content-Type', 'application/json');
-
+ 
     }catch(\PDOException $e) {
-      return $e->getMessage();
+      return $e->getMessage(); 
     }
 
   }
